@@ -13,7 +13,10 @@
 ## Step 1: Learn about Dynamic Arrays
 1. Downlaod the Dynamic Array Demo Workbook [https://aka.ms/DADemo](https://aka.ms/DADemo)
 2. Open in Excel
-3. 
+3. Enter the following formulas and observe:
+3.1 B5  =UNIQUE(Sales[Product])
+3.2 I5  =SUMIF(Sales[Product],H5#,Sales[Units])
+3.2 K5  =FILTER(Sales,Sales[Region]=M2) 
 
 ## Step 2: Try our dynamic arrays, using APIs and Custom Functions
 1. Open the Excel Custom Functions Demo Workbook [https://aka.ms/ExcelJSReadyDemo](https://aka.ms/ExcelJSReadyDemo)
